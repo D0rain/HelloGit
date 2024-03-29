@@ -37,3 +37,13 @@ sky:
     admin-ttl: 14400000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+
+
+# 配置文件的根节点
+oss:
+  # OSS的端点
+  endpoint: ${oss.endpoint}
+  # 凭证提供者配置
+  credentialsProviderType: ${oss.credentialsProviderType}
+  # 存储桶名称
+  bucketName: ${oss.bucketName}
