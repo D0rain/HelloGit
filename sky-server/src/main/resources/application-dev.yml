@@ -11,6 +11,10 @@ sky:
     port: 6379
     password: 123456
     database: 10
+
+  wechat:
+    appid: wxb19bb21490888e2a
+    secret: a5ca230940a543496c74234c1c80ebd3
 # 配置文件的根节点
 oss:
   # OSS的端点
@@ -19,3 +23,4 @@ oss:
   credentialsProviderType: "environmentVariable"
   # 存储桶名称
   bucketName: "zpxweb-talis"
+
