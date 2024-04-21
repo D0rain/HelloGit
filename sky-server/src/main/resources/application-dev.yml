@@ -15,6 +15,8 @@ sky:
   wechat:
     appid: wxb19bb21490888e2a
     secret: a5ca230940a543496c74234c1c80ebd3
+    notifyUrl: https://2d539f9a.r23.cpolar.top/notify/paySuccess
+    refundNotifyUrl: https://2d539f9a.r23.cpolar.top/notify/refundSuccess
 # 配置文件的根节点
 oss:
   # OSS的端点

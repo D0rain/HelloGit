@@ -39,4 +39,11 @@ void updateNumberById(ShoppingCart shoppingCart);
   */
  @Delete("delete from shopping_cart where user_id =#{userId}")
  void deleteByUserId(Long userId);
+
+ /**
+  * 批量插入购物车数据
+  *
+  * @param shoppingCartList
+  */
+ void insertBatch(List<ShoppingCart> shoppingCartList);
 }
